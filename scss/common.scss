@@ -1,0 +1,18 @@
+.body {
+    margin: 0;
+    font-family: Crimson Text;  
+}
+
+.container {
+    max-width: 376px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: 992px) {
+        max-width: 866px;
+        padding: 0;
+    }
+}
+

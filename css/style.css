@@ -1,0 +1,35 @@
+.header {
+  padding: 16px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+}
+
+.body {
+  margin: 0;
+  font-family: Crimson Text;
+}
+
+.container {
+  max-width: 376px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 866px;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
