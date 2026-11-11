@@ -14,5 +14,13 @@
         max-width: 866px;
         padding: 0;
     }
+
+    @media (min-width: 1366px) {
+        max-width: 1069px;
+    }
+
+    @media (min-width: 1920px) {
+        max-width: 1545px;
+    }
 }
 

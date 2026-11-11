@@ -10,7 +10,114 @@
 .header__flex {
   display: flex;
   align-items: center;
-  padding-left: 17px;
+}
+.header__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+@media (min-width: 1920px) {
+  .header__link {
+    font-size: 36px;
+  }
+}
+.header__link_logo {
+  flex-shrink: 0;
+}
+@media (min-width: 992px) {
+  .header__link_about {
+    margin-left: 42px;
+  }
+}
+@media (min-width: 1366px) {
+  .header__link_about {
+    margin-left: 74px;
+  }
+}
+@media (min-width: 992px) {
+  .header__link_shop {
+    margin-left: 51px;
+  }
+}
+@media (min-width: 1366px) {
+  .header__link_shop {
+    margin-left: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .header__link_blog {
+    margin-left: 62px;
+  }
+}
+@media (min-width: 1366px) {
+  .header__link_blog {
+    margin-left: 90px;
+  }
+}
+@media (min-width: 992px) {
+  .header__link_contact {
+    margin-left: 41px;
+  }
+}
+@media (min-width: 1366px) {
+  .header__link_contact {
+    margin-left: 64px;
+  }
+}
+.header__menu {
+  display: none;
+}
+@media (min-width: 992px) {
+  .header__menu {
+    display: flex;
+    margin-left: 177px;
+  }
+}
+@media (min-width: 1366px) {
+  .header__menu {
+    margin-left: 288px;
+  }
+}
+@media (min-width: 1920px) {
+  .header__menu {
+    margin-left: 162px;
+  }
+}
+.header__menu--open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 66px;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: #8e9a82;
+  font-size: 18px;
+}
+.header__burger {
+  width: 63px;
+  height: 47px;
+  border-radius: 6px;
+  background: #8e9a82;
+  margin-left: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+@media (min-width: 992px) {
+  .header__burger {
+    display: none;
+  }
+}
+.header__burger-element {
+  display: block;
+  background-color: #D9D9D9;
+  width: 41px;
+  height: 5px;
 }
 
 .body {
@@ -29,6 +136,16 @@
   .container {
     max-width: 866px;
     padding: 0;
+  }
+}
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1069px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1545px;
   }
 }
 
