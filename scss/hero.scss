@@ -1,0 +1,125 @@
+.hero {
+    padding: 96px 0;
+    background: #FAF9F8;
+    overflow: hidden;
+    width: 100%;
+    overflow-x: clip;
+
+    @media(min-width: 992px) {
+        padding: 192px 0;
+    }
+
+    @media(min-width: 992px) {
+        padding: 384px 0;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__bigimage {
+        display: none;
+
+        @media (min-width: 992px) {
+            display: block;
+            width: 320px;
+            padding-right: 27px;
+        }
+
+        @media (min-width: 1920px) {
+            display: block;
+            width: 578px;
+            padding-right: 69px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 17px;
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 0.15em;
+        color: #000;
+
+        @media (min-width: 992px) {
+            font-size: 48px;
+        }
+    }
+
+    &__subcontent {
+        display: flex;
+        gap: 2px;
+        margin-left: 32px;
+
+        @media (min-width: 992px) {
+            margin-left: 0;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 26px;
+        width: 166px;
+        height: 180px;
+
+        @media (min-width: 992px) {
+            width: 424px;
+            height: 138px;
+            font-size: 20px;
+        }
+    }
+
+    &__image {
+        max-width: 220px;
+        
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__button {
+        width: 152px;
+        height: 32px;
+        border-radius: 59px;
+        background: #8e9a82;
+        border: none;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 0.15em;
+        color: #fff;
+        cursor: pointer;
+        transition: all 2s;
+
+        @media (min-width: 992px) {
+            width: 227px;
+            height: 42px;
+        }
+
+        @media (min-width: 1366px) {
+            width: 206px;
+            height: 55px;
+        }
+
+        @media (min-width: 1920px) {
+            width: 291px;
+            height: 77px;
+        }
+
+
+        
+
+        &:hover {
+            border: 1px solid #88a36c;
+            background: #88a36c;
+        }
+    }
+}

@@ -1,6 +1,10 @@
-.body {
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  font-family: Crimson Text;
+  padding: 0;
 }
 
 .container {

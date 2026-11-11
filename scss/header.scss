@@ -4,8 +4,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: #fff;
+    background: #FAF9F8;
     z-index: 999;
+
+    @media (min-width: 992px) {
+        padding: 46px 0;
+    }
+
+    @media (min-width: 1366px) {
+        padding: 73px 0;
+    }
+
+    @media (min-width: 1366px) {
+        padding: 84px 0;
+    }
 
     &__flex {
         display: flex;
