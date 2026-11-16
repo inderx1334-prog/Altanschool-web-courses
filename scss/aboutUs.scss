@@ -100,6 +100,10 @@
             @media (min-width: 992px) {
                 max-width: 561px;
             }
+
+            @media (min-width: 1920px) {
+                max-width: 1085px;
+            }
         }
 
         &_down {
@@ -109,6 +113,10 @@
             @media (min-width: 992px) {
                 margin-top: 0;
                 max-width: 561px;
+            }
+
+            @media (min-width: 1920px) {
+                max-width: 1085px;
             }
         }
     }
