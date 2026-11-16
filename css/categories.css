@@ -2,6 +2,21 @@
   padding-top: 19px;
   overflow: hidden;
 }
+@media (min-width: 992px) {
+  .categories {
+    padding-top: 108px;
+  }
+}
+@media (min-width: 1366px) {
+  .categories {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1920px) {
+  .categories {
+    padding-top: 80px;
+  }
+}
 .categories__title {
   font-weight: 400;
   font-size: 20px;

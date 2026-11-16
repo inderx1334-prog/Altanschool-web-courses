@@ -335,6 +335,21 @@ body {
   padding-top: 19px;
   overflow: hidden;
 }
+@media (min-width: 992px) {
+  .categories {
+    padding-top: 108px;
+  }
+}
+@media (min-width: 1366px) {
+  .categories {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1920px) {
+  .categories {
+    padding-top: 80px;
+  }
+}
 .categories__title {
   font-weight: 400;
   font-size: 20px;
@@ -451,6 +466,226 @@ body {
   margin-top: 10px;
   width: 100%;
   height: auto;
+}
+
+.collection {
+  padding-top: 38px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .collection {
+    padding-top: 62px;
+    padding-bottom: 71px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection {
+    padding-top: 82px;
+    padding-bottom: 151px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection {
+    padding-top: 123px;
+    padding-bottom: 133px;
+  }
+}
+.collection__title {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px) {
+  .collection__title {
+    max-width: 263px;
+    font-size: 32px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__title {
+    max-width: 340px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__title {
+    max-width: 622px;
+    font-size: 48px;
+  }
+}
+.collection__photos {
+  position: relative;
+  height: 179px;
+}
+@media (min-width: 992px) {
+  .collection__photos {
+    height: 275px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__photos {
+    height: 390px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__photos {
+    height: 528px;
+  }
+}
+.collection__subphotos {
+  display: flex;
+  gap: 31px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (min-width: 992px) {
+  .collection__subphotos {
+    gap: 62px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__subphotos {
+    gap: 81px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__subphotos {
+    gap: 115px;
+  }
+}
+.collection__photo {
+  max-width: 177px;
+  height: 179px;
+}
+@media (min-width: 992px) {
+  .collection__photo {
+    height: 264px;
+    max-width: 261px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__photo {
+    height: 345px;
+    max-width: 338px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__photo {
+    height: 502px;
+    max-width: 506px;
+  }
+}
+.collection__photo_left {
+  max-width: 143px;
+  height: 144px;
+}
+@media (min-width: 992px) {
+  .collection__photo_left {
+    height: 264px;
+    max-width: 261px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__photo_left {
+    height: 345px;
+    max-width: 338px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__photo_left {
+    height: 502px;
+    max-width: 506px;
+  }
+}
+.collection__photo_right {
+  max-width: 151px;
+  height: 144px;
+}
+@media (min-width: 992px) {
+  .collection__photo_right {
+    height: 264px;
+    max-width: 261px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__photo_right {
+    height: 345px;
+    max-width: 338px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__photo_right {
+    height: 502px;
+    max-width: 506px;
+  }
+}
+.collection__text {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 0;
+  max-width: 298px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px) {
+  .collection__text {
+    max-width: 748px;
+    font-size: 32px;
+    margin-top: 48px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__text {
+    max-width: 967px;
+    margin-top: 62px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__text {
+    max-width: 1346px;
+    font-size: 40px;
+    margin-top: 95px;
+  }
+}
+.collection__square {
+  background-color: #DBDBDB;
+  position: absolute;
+  z-index: -1;
+  width: 604px;
+  height: 204px;
+  top: 200px;
+  left: 0;
+}
+@media (min-width: 992px) {
+  .collection__square {
+    width: 100%;
+    height: 316px;
+    top: 300px;
+  }
+}
+@media (min-width: 1366px) {
+  .collection__square {
+    height: 443px;
+    top: 388px;
+  }
+}
+@media (min-width: 1920px) {
+  .collection__square {
+    height: 607px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

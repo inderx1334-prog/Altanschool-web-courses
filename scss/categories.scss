@@ -1,6 +1,18 @@
 .categories {
     padding-top: 19px;
     overflow: hidden;
+
+    @media (min-width: 992px) {
+        padding-top: 108px;
+    }
+
+    @media (min-width: 1366px) {
+        padding-top: 60px;
+    }
+
+    @media (min-width: 1920px) {
+        padding-top: 80px;
+    }
     
     &__title {
         font-weight: 400;
