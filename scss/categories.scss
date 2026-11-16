@@ -1,0 +1,112 @@
+.categories {
+    padding-top: 19px;
+    overflow: hidden;
+    
+    &__title {
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 0.15em;
+        color: #000;
+        margin-top: 0;
+        margin-bottom: 25px;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            max-width: 314px;
+            font-size: 32px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 62px;
+        }
+
+        @media (min-width: 1366px) {
+            max-width: 426px;
+            margin-bottom: 89px;
+        }
+
+        @media (min-width: 1920px) {
+            max-width: 633px;
+            margin-bottom: 89px;
+            font-size: 48px;
+        }
+    }
+
+    &__photos {
+        position: relative;
+        height: 136px;
+
+        @media (min-width: 992px) {
+            height: 275px;
+        }
+
+        @media (min-width: 1366px) {
+            height: 390px;
+        }
+
+        @media (min-width: 1920px) {
+            height: 528px;
+        }
+    }
+
+    &__subphotos {
+        display: flex;
+        gap: 5px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        @media (min-width: 992px) {
+           gap: 11px;
+        }
+
+        @media (min-width: 1366px) {
+           gap: 17px;
+        }
+
+        @media (min-width: 1920px) {
+           gap: 23px;
+        }
+    }
+
+    &__photo {
+        max-width: 133px;
+        height: 136px;
+
+        @media (min-width: 992px) {
+            height: 275px;
+            max-width: 269px;
+        }
+
+        @media (min-width: 1366px) {
+            height: 390px;
+            max-width: 368px;
+        }
+
+        @media (min-width: 1920px) {
+            height: 528px;
+            max-width: 518px;
+        }
+
+        &_small {
+            max-width: 105px;
+
+            @media (min-width: 992px) {
+                max-width: 212px;
+            }
+
+            @media (min-width: 1366px) {
+                max-width: 289px;
+            }
+
+            @media (min-width: 1920px) {
+                max-width: 407px;
+            }
+        }
+    }
+
+    &__bigimage {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+}

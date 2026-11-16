@@ -1,23 +1,25 @@
 .hero {
-  padding: 96px 0;
+  padding-top: 102px;
+  padding-bottom: 49px;
   background: #FAF9F8;
   overflow: hidden;
-  width: 100%;
   overflow-x: clip;
 }
 @media (min-width: 992px) {
   .hero {
-    padding: 192px 0;
+    padding-top: 160px;
+    padding-bottom: 101px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1366px) {
   .hero {
-    padding: 384px 0;
+    padding-top: 182px;
+    padding-bottom: 144px;
   }
 }
 .hero__flex {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .hero__bigimage {
   display: none;
@@ -26,19 +28,36 @@
   .hero__bigimage {
     display: block;
     width: 320px;
-    padding-right: 27px;
   }
 }
 @media (min-width: 1920px) {
   .hero__bigimage {
     display: block;
     width: 578px;
-    padding-right: 69px;
   }
 }
 .hero__content {
-  display: flex;
-  flex-direction: column;
+  max-width: 166px;
+  padding-bottom: 34px;
+  padding-left: 13px;
+}
+@media (min-width: 992px) {
+  .hero__content {
+    padding-left: 27px;
+    max-width: 519px;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1366px) {
+  .hero__content {
+    max-width: 1069px;
+  }
+}
+@media (min-width: 1920px) {
+  .hero__content {
+    max-width: 1066px;
+    padding-left: 68px;
+  }
 }
 .hero__title {
   margin-top: 0;
@@ -47,10 +66,16 @@
   font-size: 32px;
   letter-spacing: 0.15em;
   color: #000;
+  white-space: nowrap;
 }
 @media (min-width: 992px) {
   .hero__title {
     font-size: 48px;
+  }
+}
+@media (min-width: 1920px) {
+  .hero__title {
+    font-size: 90px;
   }
 }
 .hero__subcontent {
@@ -69,18 +94,30 @@
   color: #000;
   margin-top: 0;
   margin-bottom: 26px;
-  width: 166px;
+  max-width: 166px;
   height: 180px;
 }
 @media (min-width: 992px) {
   .hero__text {
-    width: 424px;
+    max-width: 424px;
     height: 138px;
     font-size: 20px;
   }
 }
+@media (min-width: 1920px) {
+  .hero__text {
+    font-size: 36px;
+    max-width: 918px;
+  }
+}
 .hero__image {
   max-width: 220px;
+  height: 282px;
+  position: relative;
+  left: 20px;
+  margin-top: 32px;
+  object-fit: cover;
+  display: inline-block;
 }
 @media (min-width: 992px) {
   .hero__image {
@@ -116,6 +153,7 @@
   .hero__button {
     width: 291px;
     height: 77px;
+    margin-top: 90px;
   }
 }
 .hero__button:hover {
